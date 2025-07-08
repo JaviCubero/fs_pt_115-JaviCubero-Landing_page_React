@@ -11,11 +11,19 @@ const Home = () => {
 
 			<div className="container">
 				<Jumbotron />
-				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+				<div className="row mb-4">
+					<Card
+						content="Contenido de la primera tarjeta, texto de ejemplo. Proyecto para crear una página de inicio con React."
+					/>
+					<Card
+						content="Contenido de la segunda tarjeta, texto de ejemplo. Proyecto para crear una página de inicio con React."
+					/>
+					<Card
+						content="Contenido de la tercera tarjeta, texto de ejemplo. Proyecto para crear una página de inicio con React."
+					/>
+					<Card
+						content="Contenido de la cuarta tarjeta, texto de ejemplo. Proyecto para crear una página de inicio con React."
+					/>
 				</div>
 			</div>
 
